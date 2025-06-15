@@ -7,7 +7,7 @@ Excentricidade é maior distância geodésica (caminho mais curto) de v para qua
 
 Implementação em java:
 
-´´´
+```
     public void calcularExcentricidade(Graph G){
        // Excentricidade é maior distância geodésica (caminho mais curto)
       //  de v para qualquer outro vértice no grafo conectado
@@ -56,15 +56,14 @@ Implementação em java:
             e.printStackTrace();
         }
     }
-´´´
+```
 
 ## Closeness Centrality
 Representa o quão perto um vértice está de todos os outros vértices no grafo.
 Um valor alto indica que o vértice está a uma curta distância de muitos outros, podendo alcançar e ser alcançado rapidamente.
 
 Implementação em java:
-
-´´´
+```
     public void calcularClosenessCentrality(Graph G) {
         /*Representa o quão perto um vértice está de todos os outros vértices no grafo.
         Um valor alto indica que o vértice está a uma curta distância de muitos outros,
@@ -118,28 +117,26 @@ Implementação em java:
         e.printStackTrace();
     }
   }
-´´´
+```
 ## Como usar ?
 Para usar os algoritimos deve primeiro clonar o repositorio
-´´´
-
-´´´
+```
+git clone https://github.com/FerDelbo/atividade-pratica-1.git
+```
 O arquivo que tem os grafos está em 'LesMiserables.gexf' com os vertices e o numeor de grafos.
 Depois deve executar o comando Para compilar
-
-´´´
+```
 
 javac ReadXMLFile.java 
 
-´´´
+```
 
 Por fim execute o comando par executar
-
-´´´
+```
 
 java ReadXMLFile
 
-´´´
+```
 
 No terminal irá exibir o Closeness Centrality normalizado de cada vértice e a excentricidade de cada vértice
 E irá colocar essas saídas em um arquivo txt.
